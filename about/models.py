@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 
-
+# for example - the imaginary features of employer
 class about_detail (models.Model):
     full_name = models.CharField(max_length=50, blank=False)
     email = models.EmailField(blank=False)
