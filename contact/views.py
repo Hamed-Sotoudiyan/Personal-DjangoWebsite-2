@@ -6,6 +6,7 @@ from about.models import about_detail
 # Create your views here.
 
 # Saving Posts (ContatcUs) To DB
+# all of html files are in templates folder in a main root of project
 
 def main(request):
     if request.method == 'POST':
