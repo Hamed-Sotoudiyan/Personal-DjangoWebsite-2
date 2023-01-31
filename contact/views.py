@@ -5,6 +5,7 @@ from django.contrib import messages
 from about.models import about_detail
 # Create your views here.
 
+# Saving Posts (ContatcUs) To DB
 
 def main(request):
     if request.method == 'POST':
