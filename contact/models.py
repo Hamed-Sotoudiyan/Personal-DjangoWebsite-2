@@ -2,6 +2,7 @@ from django.db import models
 
 # Create your models here.
 
+# for example - the imaginary features of Contact Us Page
 
 class Contact (models.Model):
     full_name = models.CharField(max_length=50, blank=False)
