@@ -10,6 +10,7 @@ from contact.models import Contact
 from home.models import Home
 # Create your views here.
 
+# CRUD Section of all applications of website
 
 def authentication(request):
     if request.method == 'POST':
