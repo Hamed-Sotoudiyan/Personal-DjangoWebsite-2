@@ -11,6 +11,8 @@ from home.models import Home
 # Create your views here.
 
 # CRUD Section of all applications of website
+# all of html files are in templates folder in a main root of project
+
 
 def authentication(request):
     if request.method == 'POST':
