@@ -3,6 +3,8 @@ from . import views
 
 app_name = 'hiddenadmin'
 
+# HTML pages of Hidden admin application
+
 urlpatterns = [
     path('', views.authentication, name='authentication'),
     path('adminpagemenu/', views.adminpagemenu, name='adminpagemenu'),
