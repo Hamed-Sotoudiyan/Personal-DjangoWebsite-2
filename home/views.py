@@ -6,6 +6,7 @@ from note.models import Notes
 from travelogue.models import Travelogue
 # Create your views here.
 
+# rendering HomePage Info (Home, Articles, Notes, Travelogue) to template
 
 def main(request):
     context = {
