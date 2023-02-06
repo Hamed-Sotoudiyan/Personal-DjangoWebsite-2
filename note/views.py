@@ -6,6 +6,7 @@ from about.models import about_detail
 
 
 # rendering Notes Info to template
+# all of html files are in templates folder in a main root of project
 
 def main(request):
     context = {
