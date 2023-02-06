@@ -5,6 +5,8 @@ from about.models import about_detail
 # Create your views here.
 
 
+# rendering Notes Info to template
+
 def main(request):
     context = {
         'Notes_for_template' : Notes.objects.all()
