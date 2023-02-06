@@ -2,6 +2,8 @@ from django.db import models
 
 # Create your models here.
 
+# for example - the imaginary features of Notes
+
 class Notes (models.Model):
     date = models.CharField(max_length=50, blank=False)
     title = models.TextField(blank=False)
