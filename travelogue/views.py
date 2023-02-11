@@ -5,6 +5,7 @@ from about.models import about_detail
 # Create your views here.
 
 # rendering Travelogue Info to template 
+# all of html files are in templates folder in a main root of project
 
 def main(request):
     context = {
